@@ -9,8 +9,9 @@ A simple module for creating range filter with slider.
 - Call ```{RangeFilter} = require "RangeFilter"``` in your Framer prototype.
 - Initialize with ```priceyCoats = new RangeFilter```
 
-[Try the live demo] (https://framer.cloud/TNFYC/)
-![Demo](./rangeFilterDemo.gif)
+#### [Try the live demo] (https://framer.cloud/TNFYC/)
+
+![Screen Demo](./rangeFilterDemo.gif)
 
 ## How To Use
 
@@ -28,6 +29,10 @@ priceyDays = new RangeFilter
 
 ## Customizable features
 #### from
+Set the minimum ›from‹ range value.
 #### to
+Set the maximum ›to‹ range value.
 #### bottom
+Set the initialized default ›from‹ value.
 #### top
+Set the initialized default ›to‹ value.
