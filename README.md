@@ -45,24 +45,17 @@ priceyCoats.goTo(699, 1999)
 ```
 
 ## Customizable features
-#### from
-Set the minimum ›from‹ range value. Default ›1‹
+#### from & to
+Set the range of your filter. Default ›from 1 to 100‹
 ```javascript
 	from: 499
-```
-#### to
-Set the maximum ›to‹ range value. Default ›100‹
-```javascript
 	to: 2899
 ```
-#### bottom
-Initialize filter with a different than ›from‹ value. Default ›same as from‹
+#### bottom &/or top
+Initialize your filter with custom active range. Default ›same as from/to‹.
+You can define none/one of these or both of these options.
 ```javascript
 	bottom: 699
-```
-#### top
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
-```javascript
 	top: 2199
 ```
 
