@@ -27,6 +27,18 @@ priceyCoats = new RangeFilter
   to: 2899
 ```
 
+## Animate to Range
+
+#### Initialize a range filter
+```javascript
+priceyCoats = new RangeFilter
+```
+
+#### Call the goTo() method
+```javascript
+priceyCoats.goTo(25, 75)
+```
+
 ## Customizable features
 #### from
 Set the minimum ›from‹ range value. Default ›1‹
