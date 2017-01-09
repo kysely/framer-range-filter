@@ -39,12 +39,7 @@ someLay.onClick ->
 
 ## Animate to Range
 
-##### Initialize a range filter
-```javascript
-priceyCoats = new RangeFilter
-```
-
-##### Call the goTo() method
+Call the goTo() method
 ```javascript
 priceyCoats.goTo(25, 75)
 ```
