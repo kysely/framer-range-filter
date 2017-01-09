@@ -148,21 +148,3 @@ Set the currency symbol in front of the text values. Default ›€‹
 ```javascript
 	currency: "¥"
 ```
-
-
-### Example of fully customized range filter
-```javascript
-priceyCoats = new RangeFilter
-	y: Screen.height - 100
-	x: Screen.width/2 - 250
-	height: 10
-	width: 500
-	backgroundColor: "rgba(30,0,53,1)"
-	activeRange: "rgba(105,0,230,1)"
-	knobColor: "rgba(30,0,49,1)"
-	knobShadowColor: "rgba(0,0,0,0.5)"
-	valueColor: "rgba(212,196,251,0.76)"
-	currency: "$"
-	from: 499
-	to: 2899
-```
