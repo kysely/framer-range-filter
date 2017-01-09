@@ -37,7 +37,7 @@ priceyCoats.goTo(699, 1999)
 Current values set at a filter are the object's keys ›bottom‹ and ›top‹
 
 ```javascript
-someLayer.onClick ->
+priceyCoats.on Events.PanEnd, ->
 	print priceyCoats.bottom
 	print priceyCoats.top
 ```
