@@ -29,13 +29,29 @@ priceyCoats = new RangeFilter
 
 ## Customizable features
 #### from
-Set the minimum ›from‹ range value.
+Set the minimum ›from‹ range value. Default ›1‹
+```javascript
+priceyCoats = new RangeFilter
+	from: 499
+```
 #### to
-Set the maximum ›to‹ range value.
+Set the maximum ›to‹ range value. Default ›100‹
+```javascript
+priceyCoats = new RangeFilter
+	to: 2899
+```
 #### bottom
-Set the initialized default ›from‹ value.
+Initialize filter with a different than ›from‹ value. Default ›same as from‹
+```javascript
+priceyCoats = new RangeFilter
+	bottom: 699
+```
 #### top
-Set the initialized default ›to‹ value.
+Initialize filter with a different than ›to‹ value. Default ›same as to‹
+```javascript
+priceyCoats = new RangeFilter
+	top: 2199
+```
 
 ```javascript
 priceyCoats = new RangeFilter
