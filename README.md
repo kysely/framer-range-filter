@@ -27,21 +27,20 @@ priceyCoats = new RangeFilter
   to: 2899
 ```
 
-#### Read the Range Values
-Current values set at a filter are the object's keys ›bottom‹ and ›top‹
-
-
-```javascript
-someLayer.onClick ->
-	print priceyCoats.bottom
-	print priceyCoats.top
-```
-
 #### Animate to a Specific Range
 
 Call the goTo() method
 ```javascript
 priceyCoats.goTo(699, 1999)
+```
+
+#### Read the Range Values
+Current values set at a filter are the object's keys ›bottom‹ and ›top‹
+
+```javascript
+someLayer.onClick ->
+	print priceyCoats.bottom
+	print priceyCoats.top
 ```
 
 ## Customizable features
