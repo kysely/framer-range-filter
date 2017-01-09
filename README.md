@@ -1,2 +1,2 @@
-# RangeFilter-Module-for-Framer
+# RangeFilter Module for Framer
 
