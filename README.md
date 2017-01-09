@@ -5,9 +5,8 @@ A simple module for creating range filter with slider.
 ## How To Install
 
 - Download the module
-- Copy the RangeFilter.coffee file to your prototype's modules folder.
+- Copy the ```RangeFilter.coffee``` file to your prototype's ```modules``` folder.
 - Call ```{RangeFilter} = require "RangeFilter"``` in your Framer prototype.
-- Initialize with ```priceyCoats = new RangeFilter```
 
 #### [Try the live demo] (https://framer.cloud/TNFYC/)
 
