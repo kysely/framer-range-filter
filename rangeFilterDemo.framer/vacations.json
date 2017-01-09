@@ -1,0 +1,10 @@
+{
+  "vacations": [
+    {"vacation": "Biophilia", "photo": "green.jpg", "price": 499},
+    {"vacation": "Culturemania", "photo": "redhouse.jpg", "price": 699},
+    {"vacation": "#Freedom", "photo": "sunset.jpg", "price": 1200},
+    {"vacation": "Infamous", "photo": "winter.jpg", "price": 1699},
+    {"vacation": "IG Filter", "photo": "landscape.jpg", "price": 2300},
+    {"vacation": "Why so mad", "photo": "tibet.jpg", "price": 2899}
+  ]
+}
