@@ -52,8 +52,8 @@ Set the range of your filter. Default ›from 1 to 100‹
 	to: 2899
 ```
 #### bottom &/or top
-Initialize your filter with custom active range. Default ›same as from/to‹.
-You can define none/one of these or both of these options.
+Initialize your filter with a custom active range. Default ›same as from/to‹.
+You can define none / one of these / both of these options.
 ```javascript
 	bottom: 699
 	top: 2199
@@ -96,9 +96,9 @@ Set the color of controller knobs.
 ```
 
 #### knobSize
-Set the size of controller knobs.
+Set the size of controller knobs. Default ›80‹
 ```javascript
-	knobSize: 80
+	knobSize: 40
 ```
 
 #### knobRadius
@@ -110,7 +110,7 @@ Set the corner radius of controller knobs. Default ›half of knobSize‹
 #### knobBorder
 Set a border width of controller knobs. Default ›2‹
 ```javascript
-	knobBorder: 2
+	knobBorder: 1
 ```
 
 #### knobBorderColor
@@ -140,7 +140,7 @@ Set the color of text values above controller knobs.
 #### valueSize
 Set the size of text value above controller knobs. Default ›"34 px"‹
 ```javascript
-	valueSize: "34px"
+	valueSize: "20px"
 ```
 
 #### currency
