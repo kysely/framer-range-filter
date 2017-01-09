@@ -32,12 +32,12 @@ Current values set at a filter are the object's keys ›bottom‹ and ›top‹
 
 
 ```javascript
-someLay.onClick ->
+someLayer.onClick ->
 	print priceyCoats.bottom
 	print priceyCoats.top
 ```
 
-#### Animate to Range
+#### Animate to a Specific Range
 
 Call the goTo() method
 ```javascript
@@ -91,69 +91,69 @@ Set the corner radius for the filter range bar. Default ›half of height‹
 ```
 
 #### activeRange
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the color of the active range.
 ```javascript
 	activeRange: "rgba(0,0,0,0.6)"
 ```
 
 #### knobColor
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the color of controller knobs.
 ```javascript
 	knobColor: "rgba(239,242,242,1)"
 ```
 
 #### knobSize
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the size of controller knobs.
 ```javascript
 	knobSize: 80
 ```
 
 #### knobRadius
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the corner radius of controller knobs. Default ›half of knobSize‹
 ```javascript
-	knobRadius: options.knobSize/2
+	knobRadius: 5
 ```
 
 #### knobBorder
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set a border width of controller knobs. Default ›2‹
 ```javascript
 	knobBorder: 2
 ```
 
 #### knobBorderColor
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the color of controller knobs' borders.
 ```javascript
 	knobBorderColor: "rgba(0,0,0,0.2)"
 ```
 
 #### knobShadowColor
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the shadow color for controller knobs.
 ```javascript
 	knobShadowColor: "rgba(201,203,203,0.3)"
 ```
 
 #### showValue
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Say if you want to show the text values above each knob. Default ›true‹
 ```javascript
-	showValue: true
+	showValue: false
 ```
 
 #### valueColor
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the color of text values above controller knobs.
 ```javascript
 	valueColor: "rgb(130,130,130)"
 ```
 
 #### valueSize
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the size of text value above controller knobs. Default ›"34 px"‹
 ```javascript
 	valueSize: "34px"
 ```
 
 #### currency
-Initialize filter with a different than ›to‹ value. Default ›same as to‹
+Set the currency symbol in front of the text values. Default ›€‹
 ```javascript
-	currency: "€"
+	currency: "¥"
 ```
 
 
