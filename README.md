@@ -15,7 +15,16 @@ A simple module for creating range filter with slider.
 
 ## How To Use
 
-### Initialize default range filter
+#### Initialize default range filter
 ```javascript
 priceyDays = new RangeFilter
 ```
+
+#### Set the slider range values
+```javascript
+priceyDays = new RangeFilter
+  from: 499
+  to: 2899
+```
+
+## Customizable features
