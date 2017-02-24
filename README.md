@@ -15,12 +15,12 @@ A simple module for creating range filter with slider.
 ## How To Use
 
 #### Initialize default range filter
-```javascript
+```coffeescript
 priceyCoats = new RangeFilter
 ```
 
 #### Set the slider range values
-```javascript
+```coffeescript
 priceyCoats = new RangeFilter
   from: 499
   to: 2899
@@ -29,14 +29,14 @@ priceyCoats = new RangeFilter
 #### Animate to a Specific Range
 
 Call the goTo() method
-```javascript
+```coffeescript
 priceyCoats.goTo(699, 1999)
 ```
 
 #### Read the Range Values
 Current values set at a filter are the object's keys ›bottom‹ and ›top‹
 
-```javascript
+```coffeescript
 priceyCoats.on Events.PanEnd, ->
 	print priceyCoats.bottom
 	print priceyCoats.top
@@ -45,104 +45,104 @@ priceyCoats.on Events.PanEnd, ->
 ## Customizable features
 #### from & to
 Set the range of your filter. Default ›from 1 to 100‹
-```javascript
+```coffeescript
 	from: 499
 	to: 2899
 ```
 #### bottom &/or top
 Initialize your filter with a custom active range. Default ›same as from/to‹.
 You can define none / one of these / both of these options.
-```javascript
+```coffeescript
 	bottom: 699
 	top: 2199
 ```
 
 #### backgroundColor
 Set the color of the range bar (inactive/background)
-```javascript
+```coffeescript
 	backgroundColor: "rgba(239,244,244,1)"
 ```
 
 #### width
 Set the width of filter range bar. Default ›600‹
-```javascript
+```coffeescript
 	width: 500
 ```
 
 #### height
 Set the height of filter range bar. Default ›12‹
-```javascript
+```coffeescript
 	height: 8
 ```
 
 #### borderRadius
 Set the corner radius for the filter range bar. Default ›half of height‹
-```javascript
+```coffeescript
 	borderRadius: 0
 ```
 
 #### activeRange
 Set the color of the active range.
-```javascript
+```coffeescript
 	activeRange: "rgba(0,0,0,0.6)"
 ```
 
 #### knobColor
 Set the color of controller knobs.
-```javascript
+```coffeescript
 	knobColor: "rgba(239,242,242,1)"
 ```
 
 #### knobSize
 Set the size of controller knobs. Default ›80‹
-```javascript
+```coffeescript
 	knobSize: 40
 ```
 
 #### knobRadius
 Set the corner radius of controller knobs. Default ›half of knobSize‹
-```javascript
+```coffeescript
 	knobRadius: 5
 ```
 
 #### knobBorder
 Set a border width of controller knobs. Default ›2‹
-```javascript
+```coffeescript
 	knobBorder: 1
 ```
 
 #### knobBorderColor
 Set the color of controller knobs' borders.
-```javascript
+```coffeescript
 	knobBorderColor: "rgba(0,0,0,0.2)"
 ```
 
 #### knobShadowColor
 Set the shadow color for controller knobs.
-```javascript
+```coffeescript
 	knobShadowColor: "rgba(201,203,203,0.3)"
 ```
 
 #### showValue
 Say if you want to show the text values above each knob. Default ›true‹
-```javascript
+```coffeescript
 	showValue: false
 ```
 
 #### valueColor
 Set the color of text values above controller knobs.
-```javascript
+```coffeescript
 	valueColor: "rgb(130,130,130)"
 ```
 
 #### valueSize
 Set the size of text value above controller knobs. Default ›"34 px"‹
-```javascript
+```coffeescript
 	valueSize: "20px"
 ```
 
 #### currency
 Set the currency symbol in front of the text values. Default ›€‹
-```javascript
+```coffeescript
 	currency: "¥"
 ```
