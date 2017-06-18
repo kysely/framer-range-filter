@@ -1,8 +1,8 @@
+## Deprecated, use core [`RangeSliderComponent instead`](https://framer.com/docs/#rangeslider.rangeslidercomponent)
+
 # RangeFilter Module for Framer
 
 A simple module for creating range filter with slider.
-
-## Deprecated, use core [`RangeSliderComponent instead`](https://framer.com/docs/#rangeslider.rangeslidercomponent)
 
 ## How To Install
 
