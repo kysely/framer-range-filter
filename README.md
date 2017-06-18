@@ -2,13 +2,15 @@
 
 A simple module for creating range filter with slider.
 
+## Deprecated, use core [`RangeSliderComponent instead`](https://framer.com/docs/#rangeslider.rangeslidercomponent)
+
 ## How To Install
 
-- [Download the module] (https://github.com/rdksl/RangeFilter-Module-for-Framer/blob/master/RangeFilterModule.zip?raw=true)
+- [Download the module](https://github.com/rdksl/RangeFilter-Module-for-Framer/blob/master/RangeFilterModule.zip?raw=true)
 - Copy the ```RangeFilter.coffee``` file to your prototype's ```modules``` folder.
 - Call ```{RangeFilter} = require "RangeFilter"``` in your Framer prototype.
 
-#### [Try the live demo] (https://framer.cloud/TNFYC/)
+#### [Try the live demo](https://framer.cloud/TNFYC/)
 
 ![Screen Demo](./rangeFilterDemo.gif)
 
