@@ -1,0 +1,9 @@
+{
+    "name": "Range Filter",
+    "description": "Create simple range sliders. Deprecated: Use Range Slider Component instead.",
+    "author": "Radek Kysely",
+
+    "require": "{RangeFilter} = require 'RangeFilter'",
+    "install": "RangeFilter.coffee",
+    "example": "example.coffee"
+}
