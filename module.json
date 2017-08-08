@@ -5,5 +5,7 @@
 
     "require": "{RangeFilter} = require 'RangeFilter'",
     "install": "RangeFilter.coffee",
-    "example": "example.coffee"
+    "example": "example.coffee",
+
+    "thumb": "rf-thumb.png"
 }
