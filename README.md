@@ -5,6 +5,11 @@
 A simple module for creating range filter with slider.
 
 ## How To Install
+<a href='https://open.framermodules.com/Range Filter'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' /></a>
+
+or
 
 - [Download the module](https://github.com/rdksl/RangeFilter-Module-for-Framer/blob/master/RangeFilterModule.zip?raw=true)
 - Copy the ```RangeFilter.coffee``` file to your prototype's ```modules``` folder.
